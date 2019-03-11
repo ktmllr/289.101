@@ -46,3 +46,148 @@ body {
     margin-top: 25px;
     padding: 15px 30px;
 }
+
+
+#what {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin-top: 400px;
+    color: #27746b;
+    background-color: rgba(207, 248, 229, 0.94);  
+}
+
+
+#what h1, #what h2 {
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+
+#what p {
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}  
+
+
+#what #sponsor_logos {
+    text-align: center    
+}
+
+
+#what h1 + p {
+    font-size: 1.2em;
+}
+
+
+#sponsor_logos {
+    word-spacing: 30px;
+}
+
+
+#sponsor_logos img {
+    width: 250px;
+}
+
+
+#why {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    color: #27746b;
+    background-color: rgb(183, 234, 210);  
+}
+
+
+#why h1 {
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+   
+
+#why p {
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+
+
+#where {
+    padding-top: 40px;
+    padding-bottom: 350px;
+    color: #b2499a;
+    background-image: url('img/map.gif');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 1300px;
+}
+
+
+#where h1 {
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+
+#where p {
+    text-align: right;
+    font-weight: 700;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+#when {
+    padding-top: 40px;
+    padding-bottom: 350px;
+    color: white;
+    background-color: #469b91;
+    background-image: url('img/wires.png');
+    background-position: center;
+    background-repeat: repeat;
+    background-size: 600px;
+}
+
+
+#when h1 {
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+
+#when h2 {
+    width: 800px;
+    padding-top: 15px;
+    padding padding-bottom: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+
+#when h3 {
+    width: auto;
+    border-top: 3px dashed white;
+    padding-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+#when ul {
+    text-align: left;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+}
