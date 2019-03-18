@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>layout 1</title>
+    
+        <style>
+            * {
+                outline: 1px solid black;
+                
+            }
+            
+            body {
+                margin: 0;
+            }
+    
+            #container {
+                max-width: 800px;
+                margin-left: auto;
+                margin-right: auto;
+            }
+            
+            #bluecontainer {
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                background-color: blue;
+                height: 200px;
+            }
+            
+            #green {
+                background-color: palegreen;
+                grid-column: 1/3;
+                height: 200px;
+            }
+            
+            #red1 {
+                background-color: red;
+                height: 190px;
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr 1fr;
+            }
+            
+            .smallyellow {
+                background-color: yellow;
+                height: 130px;
+                width: 130px;
+                margin: 30px;
+            }
+            
+            #bigyellow {
+                background-color: yellow;
+                height: 100px;
+                width: 330px;
+                margin: 30px;
+            }
+            
+            
+           #red2 {
+                background-color: red;
+                height: 190px;
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+            }
+            
+        </style>
+    </head>
+    
+    <body>
+        <div id="container">
+            <div id="bluecontainer">
+                <div class="blue"></div>
+                <div class="blue"></div>
+            </div>
+            <div id="green"></div>
+            <div id="red1">
+                <div class="smallyellow"></div>
+                <div class="smallyellow"></div>
+                <div class="smallyellow"></div>
+                <div class="smallyellow"></div>
+            </div>
+            <div id="red2">
+                <div id="bigyellow"></div>
+                <div id="bigyellow"></div>
+            </div>
+        </div>
+    </body>
+
+</html>

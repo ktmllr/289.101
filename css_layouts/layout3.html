@@ -2,7 +2,7 @@
 
 <html>
     <head>
-        <title>layout 2</title>
+        <title>layout 3</title>
     
         <style>
             * {
@@ -15,21 +15,26 @@
             }
     
             #container {
-                display: grid;
-                grid-template-columns: 1fr 1fr 1fr;
                 max-width: 800px;
                 margin: auto;
             }
             
             #blue {
                 background-color: blue;
-                grid-column: 1/4;
                 height: 200px;
             }
             
-            .red {
+            #red {
+                display: grid;
+                grid-template-columns: 1fr 1fr;
                 background-color: red;
                 height: 400px;
+                padding: 20px;
+            }
+            
+            .yellow {
+                background-color: yellow;
+                margin: 20px;
             }
             
             #green {
@@ -45,9 +50,10 @@
     <body>
         <div id="container">
             <div id="blue"></div>
-            <div class="red"></div>
-            <div class="red"></div>
-            <div class="red"></div>
+            <div id="red">
+                <div class="yellow"></div>
+                <div class="yellow"></div>
+            </div>
             <div id="green"></div>
         </div>
     </body>
