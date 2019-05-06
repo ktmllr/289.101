@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+
+<html>
+    
+    
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Layout 1</title>
+        <link rel="stylesheet" href="css/bootstrap.min.css" />
+        <style>
+            * { outline: white solid 6px; }
+            
+            .blue {
+                background-color: #3FB4FF;
+                height: 50px;
+            }
+                
+            .green {
+                background-color: yellowgreen;
+                height: 150px;
+             
+            }
+            
+            .orange {
+                background-color: orange;
+                height: 200px;
+            }
+            
+            .grey {
+                background-color: gainsboro;
+                height: 60px;
+            }
+               
+                /*sm*/
+                @media (min-width: 576px) {  
+
+                }
+                
+                /*md*/
+                @media (min-width: 768px) {  
+                    .green {
+                    height: 200px;
+                    }     
+                    
+                    .orange {
+                    height: 150px;
+                    }
+                }
+                
+                /*lg*/
+                @media (min-width: 992px) {  
+                .green {
+                    height: 250px;
+                    } 
+                    .orange {
+                    height: 200px;
+                    }
+                    
+                    .grey {
+                        height: 200px;
+                    }
+                }
+                
+        
+        </style>
+    </head>
+    
+    
+    <body>
+        
+        <div class="container-fluid"> 
+            
+            <div class="row">
+                <div class="blue col-12 col-lg-6"></div>
+                <div class="blue col-12 col-lg-6"></div>
+            </div>
+            
+            <div class="row green"></div>
+            
+            <div class="row">
+                <div class="orange col-12 col-lg-4"></div>
+                <div class="orange col-12 col-lg-4"></div>
+                <div class="orange col-12 col-lg-4"></div>
+            </div>
+            
+            <div class="row">
+                <div class="grey col-6 col-lg-3 d-none d-md-block"></div>
+                <div class="grey col-6 col-lg-3 d-none d-md-block"></div>
+                <div class="grey col-6 col-lg-3 d-none d-md-block"></div>
+                <div class="grey col-6 col-lg-3 d-none d-md-block"></div>
+            </div>
+            
+        </div>
+        
+        
+        
+    </body>
+
+</html>
