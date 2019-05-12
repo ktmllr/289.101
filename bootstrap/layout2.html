@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+
+<html>
+    
+    
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Layout 1</title>
+        <link rel="stylesheet" href="css/bootstrap.min.css" />
+        <style>
+            * { outline: white solid 6px; }
+            
+            .blue {
+                background-color: #3FB4FF;
+                height: 100px;
+            }
+                
+            .green {
+                background-color: yellowgreen;
+                height: 100px;
+             
+            }
+            
+            .orange {
+                background-color: orange;
+                height: 600px;
+            }
+            
+            .maroon {
+                background-color: mediumvioletred;
+                height: 300px;
+            }
+            
+            .violet {
+                background-color: violet;
+                height: 100px;
+            }
+            
+            .grey {
+                background-color: gainsboro;
+                height: 200px;
+            }
+               
+                /*sm*/
+                @media (min-width: 576px) {  
+
+                }
+                
+                /*md*/
+                @media (min-width: 768px) {  
+                    .green {
+                    height: 200px;
+                    }  
+                    
+                    .grey {
+                    height: 150px;
+                    }
+                    
+                    .orange {
+                    height: 450px;
+                    }
+                    
+                    .maroon {
+                    height: 450px;
+                    }
+                    
+                }
+                
+                /*lg*/
+                @media (min-width: 992px) {  
+                .green {
+                    height: 600px;
+                    }
+                
+                    .blue {
+                    height: 60px;
+                    }
+                    
+                    .orange {
+                    height: 600px;
+                    }
+                    
+                    .maroon {
+                    height: 600px;
+                    }
+                    
+                    .grey {
+                        height: 100px;
+                    }
+                }
+                
+        
+        </style>
+    </head>
+    
+    
+    <body>
+        
+        <div class="container-fluid"> 
+            
+            <div class="row blue"></div>
+            
+            <div class="row">
+                <div class="green col-12 col-lg-3"></div>
+                
+                <div class="orange col-12 col-md-6 col-lg-6">
+                
+                <div class="row">
+                    
+                <div class="grey col-6 col-lg-4"></div>
+                <div class="violet d-none d-lg-block col-lg-8"></div>
+                <div class="grey col-6 col-lg-4"></div>
+                    <div class="violet d-none d-lg-block col-lg-8"></div>
+                <div class="grey col-6 col-lg-4"></div>
+                    <div class="violet d-none d-lg-block col-lg-8"></div>
+                <div class="grey col-6 col-lg-4"></div>
+                    <div class="violet d-none d-lg-block col-lg-8"></div>
+                <div class="grey col-6 col-lg-4"></div>
+                    <div class="violet d-none d-lg-block col-lg-8"></div>
+                <div class="grey col-6 col-lg-4"></div>
+                    <div class="violet d-none d-lg-block col-lg-8"></div>
+                
+                </div>
+                
+                </div>
+                    
+             
+
+                
+                
+                <div class="maroon col-12 col-md-6 col-lg-3"></div>
+                
+            </div>
+            </div>
+            
+
+            
+        
+        
+        
+    </body>
+
+</html>
