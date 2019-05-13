@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>DOM Scripting</title>
+    <style>
+        #red {
+            background-color: indianred;
+        }
+        
+        #blue {
+            background-color: skyblue;
+        }
+    
+    </style>
+</head>
+
+<body>
+    
+    <div id="red">
+        This is a red div
+    </div>
+    
+    <div id="blue">
+        This is a blue div
+    </div>
+    
+    <button id="red2greenbutton">red 2 green</button>
+    <button id="showx">SHOW X</button>
+    
+    <script>
+        
+        var x = 1;
+         document.getElementById('showx').addEventListener('click', function()    {
+            x += 1;
+            console.log(x);
+        });
+
+        document.getElementById('red2greenbutton').addEventListener('click', function()    {
+            var reddiv = document.getElementById('red');
+            reddiv.style.backgroundColor = 'green';
+        });
+        
+    </script>
+</body>
+
+
+
+
+</html>
