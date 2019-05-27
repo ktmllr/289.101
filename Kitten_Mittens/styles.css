@@ -56,7 +56,7 @@ a {
 
 
 
-l* {
+f* {
     outline: 1px solid red;
 }
 
@@ -105,26 +105,15 @@ l* {
 /*md*/
 @media (min-width: 768px) {  
     
-
-    
-}
-
-
-
-
-
-
-/*lg*/
-@media (min-width: 992px) {  
-    
-    .links {
+.links {
     background-color: #EDECE2;
     font-family: 'Arvo';
     font-weight: bold;
     color: #81B499;
     letter-spacing: 1px;
-    padding-top: 57px;
-    padding-bottom: 10px;
+    padding-top: 33px;
+    border-bottom: 10px solid #1F1F24;
+    height: 90px;
     }
 
     .links a {
@@ -136,5 +125,42 @@ l* {
         padding-left: 18px;
         padding-right: 18px;
     }
+    
+    #header {
+    border-bottom: 10px solid #1F1F24;
+    height: 90px;
+    }
+    
+    .logo {
+    color: #24E95A;
+    font-family: 'MenschBoldInline', Arial, sans-serif;
+    font-size: 2.5rem;
+    height: 130px;
+    padding-top: 15px;
+    text-align: left;
+    padding-left: 50px;
+    }
+
+    #tm {
+        color: #1F1F24;
+        font-family: Impact, sans-serif;
+        font-size: 0.5rem;
+        padding-left: 5px;
+    }
+    
+}
+
+
+
+
+
+
+/*lg*/
+@media (min-width: 992px) { 
+    
+    .logo {
+    padding-left: 70px;
+    }
+    
     
 }
