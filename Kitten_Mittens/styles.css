@@ -56,7 +56,7 @@ a {
 
 
 
-* {
+g* {
     outline: 1px solid red;
 }
 
@@ -68,15 +68,17 @@ a {
 .logo {
     color: #24E95A;
     font-family: 'MenschBoldInline', Arial, sans-serif;
-    font-size: 3.5rem;
-    height: 130px;
+    font-size: 3.0rem;
+    height: 110px;
     padding-top: 25px;
+    padding-left: 0px;
+    padding-right: 0px;
 }
 
 #tm {
     color: #1F1F24;
     font-family: Impact, sans-serif;
-    font-size: 1rem;
+    font-size: 0.5rem;
     padding-left: 5px;
 }
 
@@ -101,7 +103,7 @@ a {
 }
 
 #video-box {
-    height: 500px;
+    max-height: 800px;
     background: url("images/Cat_transparent_background_2.png");
     background-size: 550px;
     background-repeat: no-repeat;
@@ -137,15 +139,15 @@ a {
 }
 
 #finally-lg {
-    color: #1F1F24;
+    color: #EDECE2;
     font-family: 'Arvo';
     font-size: 2.2rem;
     padding-top: 25px;
     padding-left: 0px;
     background: url("images/Cat_transparent_background_2.png");
-    background-size: 550px;
+    background-size: 650px;
     background-repeat: no-repeat;
-    background-position: 190px 70px;
+    background-position: 130px 70px;
 }
 
 #finally-1 {
@@ -155,9 +157,23 @@ a {
 }
 
 #finally-2 {
+    color: #1F1F24;
     font-weight: bold;
     font-size: 3.5rem;
 }
+
+#about {
+    background-color: #807A5E;
+    position: sticky;
+    text-align: center;
+}
+
+#quote {
+    font-family: 'MenschBold', Arial, sans-serif;
+    font-size: 2.5rem;
+    color: #EDECE2;
+}
+
 
 
 /*md*/
@@ -232,6 +248,7 @@ a {
     
     #video-box {
         background-size: 0px;
+        max-height: 520px;
     }
     
     .links { 
