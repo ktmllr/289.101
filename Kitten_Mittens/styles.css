@@ -163,9 +163,14 @@ g* {
 }
 
 #about {
-    background-color: #807A5E;
     position: sticky;
     text-align: center;
+    height: auto;
+    background: url("images/Cat_transparent_background_9.png");
+    background-size: 450px;
+    background-repeat: no-repeat;
+    background-position: left -200px bottom -100px;
+    background-color: #807A5E;
 }
 
 #quote {
@@ -174,27 +179,34 @@ g* {
     padding-left: 20px;
     font-family: 'MenschRegular', Arial, sans-serif;
     font-size: 2.4rem;
-    color: #EDECE2;
+    color: #1F1F24;
+    
 }
 
 #charlie-quote {
-        padding-right: 20px;
+    padding-right: 20px;
     padding-left: 20px;
-    color: #1F1F24;
+    padding-bottom: 17px;
+    color: #81B499;
     font-family: 'MenschRegular';
     font-size: 1.0rem;
 }
 
 #info {
+    padding-right: 20px;
+    padding-left: 20px;
     font-family: 'Arvo';
     font-weight: bold;
+    font-size: 1.4rem;
     padding-top: 10px;
+    padding-bottom: 60px;
+    color: #EDECE2;
+    letter-spacing: 2px;
 }
 
 #info #thus {
-    padding-top: 20px;
-    padding-bottom: 20px;
-    color: #81B499;
+    color: #24E95A;
+    padding-top: 25px;
 }
 
 
@@ -249,7 +261,19 @@ g* {
     background-position: right -250px top -40px;
     }
     
+    #about {
+    background-size: 550px;
+    background-position: left -200px bottom -150px;
+}
     
+    #info {
+    padding-right: 40px;
+    padding-left: 40px;
+        xcolor: #1F1F24;
+    }
+    
+    #xquote {
+    color: #EDECE2;
     
 }
 
@@ -284,5 +308,20 @@ g* {
         padding-left: 60px;
         padding-right: 40px;
     }
+    
+    #info {
+    padding-right: 80px;
+    padding-left: 80px;
+        
+    }
+    
+    #about {
+    background-size: 600px;
+    background-position: left -180px bottom -150px;
+}
+    
+
+    
+}
     
 }
