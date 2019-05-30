@@ -169,9 +169,32 @@ g* {
 }
 
 #quote {
-    font-family: 'MenschBold', Arial, sans-serif;
-    font-size: 2.5rem;
+    padding-top: 30px;
+    padding-right: 20px;
+    padding-left: 20px;
+    font-family: 'MenschRegular', Arial, sans-serif;
+    font-size: 2.4rem;
     color: #EDECE2;
+}
+
+#charlie-quote {
+        padding-right: 20px;
+    padding-left: 20px;
+    color: #1F1F24;
+    font-family: 'MenschRegular';
+    font-size: 1.0rem;
+}
+
+#info {
+    font-family: 'Arvo';
+    font-weight: bold;
+    padding-top: 10px;
+}
+
+#info #thus {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #81B499;
 }
 
 
@@ -248,7 +271,7 @@ g* {
     
     #video-box {
         background-size: 0px;
-        max-height: 520px;
+        max-height: 480px;
     }
     
     .links { 
@@ -256,7 +279,8 @@ g* {
     }
     
     #video iframe {
-        max-height: 60%;
+        height: 60%;
+        max-height: 450px;
         padding-left: 60px;
         padding-right: 40px;
     }
