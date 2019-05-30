@@ -56,7 +56,7 @@ a {
 
 
 
-* {
+g* {
     outline: 1px solid red;
 }
 
@@ -252,61 +252,45 @@ body {
 
 
 #contact-box {
-    text-align: center;
-    height: 500px;
-    background: url("images/pub.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    position: relative;
-}
-
-#cat {
-    height: inherit;
+    height: 600px;
     background: url("images/Cat_transparent_background_1.png");
-    background-size: 350px;
+    background-size: 400px;
     background-repeat: no-repeat;
-    background-position: right -120px bottom -60px;
-    
+    background-position: right -200px top 50px;
+    background-color: #1F1F24;
 }
 
 #contact {
     text-align: center;
     font-size: 1.6rem;
-    color: #1F1F24;
+    color: #EDECE2;
     font-family: 'Arvo';
     font-weight: bold;
     letter-spacing: 2px;
+    padding-top: 30px;
 }
 
 #address {
     font-size: 1.3rem;
-    
+    color: #24E95A;
+    padding-top: 15px;
 }
 
-#box {
-    background-color: #EDECE2;
-    opacity: 0;
-    margin: auto;
-    margin-top: 100px;
-    height: 10px;
+
+.pub {
+    padding-top: 20px;
+    width: 100%;
 }
 
-#t-box {
-    background-color: #EDECE2;
-    opacity: 0.1;
-    margin: auto;
-    margin-top: -280px;
-    height: 300px;
-    width: 400px;
+
+#directions {
+    padding-top: 20px;
+    font-family: 'MenschRegular';
+    color: #81B499;
+    text-decoration: underline;
+    font-size: 1.0rem;
 }
 
-#contact {
-    margin: auto;
-    margin-top: 100px;
-    height: 300px;
-    width: 350px;
-}
 
 
 
@@ -382,7 +366,14 @@ body {
     padding-right: 25px;
     
 }
+    
 
+#contact-box {
+    height: 600px;
+    background: url("images/Cat_transparent_background_1.png");
+    background-size: 400px;
+    background-repeat: no-repeat;
+    background-position: right -200px top 10px;
 
 
 /*lg*/

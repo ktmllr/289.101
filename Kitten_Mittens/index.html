@@ -13,16 +13,10 @@
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     
 
-    <script src="bootstrap.min.js"></script>
-    <script src="shop.js"></script>
     
     <link href="https://fonts.googleapis.com/css?family=Arvo&display=swap" rel="stylesheet">
     
-   <script> function topFunction() {
-  document.body.scrollTop = 0; // For Safari
-  document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
-       }
-       </script>
+
     
 </head>
 
@@ -37,9 +31,9 @@
                 KITTEN MITTENS<span id=tm>TM</span>
             </div>
             <div class="links col-12 col-md-6 col-lg-6">
-                <b>ABOUT <span class="vertical-line">|</span> SHOP</b>
+                <a href="#about">ABOUT</a> <span class="vertical-line">|</span> <a href="#shop">SHOP</a>
                 <span class="vertical-line">|</span>
-                <a href="contact.html">CONTACT</a>
+                <a href="contact">FIND US</a>
             </div>
         </div>
     </div>
@@ -66,7 +60,7 @@
     
     </div>
     
-    <div id="about">
+    <div id="about"> <a name="about"></a>
     
         <div id="quote">"I'M MAKING A QUIETER CAT"</div>
         
@@ -76,44 +70,52 @@
 
         <div id="thus">Thus, KITTEN MITTENS.</div><br />
 
-        Are you also ready for peace and quiet?<br /> 
+        Are you also ready for peace and quiet, for the low price of JUST TEN DOLLARS?<br /> <br />
             Get your paws on a set of KITTEN MITTENS - You'll be SMITTEN!</div>
     
     </div>
     
     <div id="kitten-mitten-shop" class="container-fluid">
+        
+        <a name="shop"></a>
     
         <div class="row" id="gallery">
             
       <div class="mitten col-12 col-md-6 col-lg-4">
         <h2>The "Dennis"</h2>
-        <img class="mitten-thumbnail img-fluid" src="images/socks1.png" alt="Preview">
-      </div>
+        <img id="mitten1" class="mitten-thumbnail img-fluid" src="images/socks1.png" alt="Preview" onMouseOver="doMouseOver()" onMouseOut = "doMouseOut()">
+          
+          
+    </div>
+            
+
             
         <div class="mitten col-12 col-md-6 col-lg-4">
         <h2>The "Frank"</h2>
-        <img class="mitten-thumbnail blue img-fluid" src="images/socks2.png" alt="Preview">
+        <img id="mitten2" class="mitten-thumbnail blue img-fluid" src="images/socks2.png" alt="Preview" onMouseOver="doMouseOver()" onMouseOut = "doMouseOut()">
       </div>
             
         <div class="mitten col-12 col-md-6 col-lg-4">
         <h2>The "Dee"</h2>
-        <img class="mitten-thumbnail img-fluid" src="images/socks3.png" alt="Preview">
+        <img id="mitten3" class="mitten-thumbnail img-fluid" src="images/socks3.png" alt="Preview" onMouseOver="doMouseOver()" onMouseOut = "doMouseOut()">
       </div>
             
         <div class="mitten col-12 col-md-6 col-lg-4">
         <h2>The "Mac"</h2>
-        <img class="mitten-thumbnail blue img-fluid" src="images/socks4.png" alt="Preview">
+        <img id="mitten4" class="mitten-thumbnail blue img-fluid" src="images/socks4.png" alt="Preview" onMouseOver="doMouseOver()" onMouseOut = "doMouseOut()">
       </div>
         
             
         <div class="mitten col-12 col-md-6 col-lg-4">
         <h2>The "Waitress"</h2>
-        <img class="mitten-thumbnail img-fluid" src="images/socks5.png" alt="Preview">
+        <img id="mitten5" class="mitten-thumbnail img-fluid" src="images/socks5.png" alt="Preview" onMouseOver="doMouseOver()" onMouseOut = "doMouseOut()">
       </div>
             
         <div class="mitten col-12 col-md-6 col-lg-4">
         <h2>The "Charlie"</h2>
-        <img class="mitten-thumbnail blue img-fluid" src="images/socks6.png" alt="Preview">
+        <img id="mitten6" class="mitten-thumbnail blue img-fluid" src="images/socks6.png" alt="Preview" onMouseOver="doMouseOver1()" onMouseOut = "doMouseOut1()">
+            
+             
       </div>
 
             
@@ -124,6 +126,40 @@
     
     
     
+    <div id="contact-box" class="container-fluid">
+       <div class="row">
+    <div id="contact" class="col-12 col-lg-6">PURCHASE YOUR KITTEN MITTENS AT PADDY'S PUB TODAY!<br /> <span id="address">228 Race St, Philadelphia,<br /> PA 19106, USA</span><br />  <a href="https://www.google.com/maps?q=paddy%27s+pub+philadelphia&um=1&ie=UTF-8&sa=X&ved=0ahUKEwjRhdmN98LiAhUi6nMBHaRvCLYQ_AUIDygC" id="directions">DIRECTIONS</a></div>
+       
+     <div id="contact" class="col-12 col-lg-6"><img src="images/pub.jpg" alt="Paddy's Pub" class="image-fluid pub"></div>
+       </div>
+    </div>
+    
+    
+    <script>
+    
+    function doMouseOver()
+    {
+
+        document.getElementById("mitten1").src = "images/socks11.jpg";
+
+    }
+    
+        
+   function doMouseOut()
+    {
+
+        document.getElementById("mitten1").src = "images/socks1.png";
+
+    }     
+        
+        
+    
+        
+        
+    </script>
+        
+        
+   
     
     
 </body>
